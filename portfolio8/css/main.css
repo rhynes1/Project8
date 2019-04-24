@@ -1,0 +1,185 @@
+/**** Base Styles ****/
+
+/**
+font-family: 'Roboto Slab', serif;
+font-family: 'Roboto', sans-serif;
+**/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 15px 15px 15px #b7b7b7;
+}
+
+
+#header {
+  height: 680px;
+}
+
+#Work {
+  height: 1450px;
+}
+
+#about-me {
+  height: 650px;
+}
+
+#contact {
+  height: 575px;
+}
+
+
+
+
+/**** Header Section ****/
+
+#header {
+  background-image: url("../img/hero-image.png");
+  background-size: 1200px;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+h1 {
+  padding-top: 250px;
+  color: #bdbf09;
+  font-family: Roboto Slab;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+h2 {
+  color: #095156;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+h3 {
+  text-align: center;
+  font-family: Roboto Slab, serif;
+  font-size: 36pt;
+  color: #095156;
+  font-weight: bold;
+}
+
+/**** Work Section ****/
+
+#work div p {
+  color: black;
+  font-size: 18px;
+}
+
+#work div h3 {
+  color: black;
+}
+
+#work img {
+  height: 100%;
+  width: 100%
+}
+
+
+#work .half-width {
+  width: 450px;
+  float: left;
+  margin: 0px 40px 20px 40px;
+}
+
+h4 {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+/**** About Me Section ****/
+
+#about-me {
+  background: #087e8b;
+  color: white;
+  clear: both;
+}
+
+#about-me h3 {
+  padding-top: 20px;
+}
+
+#about-me .half-width {
+  float: left;
+  width: 500px;
+  font-size: 24px;
+  margin: 10px;
+}
+
+#about-me img {
+  height: 70%;
+  width: 70%;
+  margin-left: 100px;
+}
+
+#about-me p {
+  margin-left: 20px;
+}
+
+
+
+/**** Contact Section ****/
+
+
+#contact {
+  background: #095156;
+  text-align: center;
+  color: white;
+}
+
+#contact h2, h3 {
+  color: white;
+}
+
+#contact .third-width {
+  float: left;
+  width: 400px;
+  font-size: 12px;
+}
+
+#contact .full-width {
+  padding-top: 30px;
+}
+
+#contact p {
+  padding-bottom: 5px;
+}
+
+#contact a, p {
+  color: white;
+  font-size: 20px;
+}
+
+/**** Hobby Page ****/
+
+/*** Content ****/
+
+#hobbie-content {
+  margin-top: 50px;
+}
+
+#hobbie-content div p {
+  color: black;
+  font-size: 18px;
+}
+
+#hobbie-content div h3 {
+  color: black;
+}
+
+#hobbie-content img {
+  height: 100%;
+  width: 100%
+}
+
+#hobbie-content .half-width {
+  width: 450px;
+  float: left;
+  margin: 0px 40px 20px 40px;
+}
